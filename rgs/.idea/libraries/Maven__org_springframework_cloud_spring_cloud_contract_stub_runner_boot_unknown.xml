@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-cloud-contract-stub-runner-boot:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-contract-stub-runner-boot/unknown/spring-cloud-contract-stub-runner-boot-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-contract-stub-runner-boot/unknown/spring-cloud-contract-stub-runner-boot-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-contract-stub-runner-boot/unknown/spring-cloud-contract-stub-runner-boot-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
