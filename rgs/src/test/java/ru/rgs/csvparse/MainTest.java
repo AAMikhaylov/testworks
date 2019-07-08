@@ -46,7 +46,7 @@ public class MainTest {
     private void checkParser(String sourcePath, String expectedFilePath) {
         Path input = getTestFile(sourcePath);
         Path output = Awaitility.await()
-                               .atMost(Duration.TEN_SECONDS)
+                               .atMost(Duration.ONE_MINUTE)
                                .until(() -> csvParserService.processCsv(input), Matchers.any(Path.class));
 
         List<String> expected = Files.readAllLines(getTestFile(expectedFilePath));

@@ -30,6 +30,8 @@ public class MainConfiguration {
                 .logger(new Logger.ErrorLogger())
                 .logLevel(Logger.Level.FULL)
                 .target(UserClient.class,userClientURL);
+
+
     }
 
 }

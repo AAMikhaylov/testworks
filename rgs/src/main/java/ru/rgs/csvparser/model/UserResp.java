@@ -4,14 +4,13 @@ import lombok.Data;
 
 @Data
 public class UserResp {
-    String status;
-    int scoringValue;
+    private String status;
+    private float scoringValue;
 
     @Override
     public String toString() {
-        return "UserResp{" +
-                "status='" + status + '\'' +
-                ", scoringValue=" + scoringValue +
-                '}';
+        if (status.equals("NOT_FOUND"))
+            return "не найден";
+        return Float.toString(scoringValue);
     }
 }

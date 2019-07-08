@@ -1,8 +1,11 @@
 package ru.rgs.csvparser.model;
 
+import lombok.Data;
+
+@Data
 public class UserReq {
-    String clientName;
-    String contractDate;
+    private String clientName;
+    private String contractDate;
 
     public UserReq() {
     }
